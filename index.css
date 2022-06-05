@@ -79,6 +79,9 @@ body{
     right:15%;
 
 }
+#menu{
+    color:black;
+}
 .cart-items-container{
     position: absolute;
     top:110%; right:-300%;
@@ -359,7 +362,7 @@ gap:1rem;
 
 @media (max-width:991px) {
     #menu{
-        display:inline-block;
+        color:white;
     }
     .header .navbar{
         position:absolute;
@@ -421,7 +424,7 @@ gap:1rem;
         display: grid;
         grid-template-columns: repeat(auto-fit,minmax(15rem,1fr) );
         gap:1rem;
-        }
+        } 
 }
 
 
